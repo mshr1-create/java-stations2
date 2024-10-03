@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>dev.techtrain.railway.java2</groupId>
+    <artifactId>root</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>internal/station1</module>
+        <module>internal/station2</module>
+        <module>internal/station3</module>
+        <module>internal/station4</module>
+        <module>internal/station5</module>
+        <module>internal/station6</module>
+        <module>internal/station7</module>
+        <module>internal/station8</module>
+        <module>internal/station9</module>
+        <module>internal/station10</module>
+        <module>internal/station11</module>
+        <module>internal/station14</module>
+        <module>internal/station15</module>
+    </modules>
+</project>
