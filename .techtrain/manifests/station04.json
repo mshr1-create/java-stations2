@@ -7,7 +7,7 @@
       "type": "junit-compat",
       "command": "mvn test -pl internal/station1 -Dtest=Test4",
       "shell": true,
-      "reportFile": "internal/station1/target/surefire-reports/TEST-Test4.xml"
+      "reportFile": "internal/station4/target/surefire-reports/TEST-Test4.xml"
     }
   ]
 }
