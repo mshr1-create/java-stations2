@@ -1,0 +1,13 @@
+{
+  "name": "Station 11",
+  "id": 798,
+  "prepare": [],
+  "tests": [
+    {
+      "type": "junit-compat",
+      "command": "mvn test -pl internal/station1 -Dtest=Test11",
+      "shell": true,
+      "reportFile": "internal/station1/target/surefire-reports/TEST-Test11.xml"
+    }
+  ]
+}

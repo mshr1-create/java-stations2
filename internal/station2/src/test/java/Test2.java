@@ -10,7 +10,7 @@ public class Test2 {
     }
 
     @Test
-    public void setメソッドが正しく定義されている() {
+    public void putメソッドが正しく定義されている() {
         new Cache<String, Integer>().put("", 1);
         new Cache<Integer, String>().put(1, "");
     }

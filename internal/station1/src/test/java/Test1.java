@@ -7,7 +7,7 @@ import static org.junit.Assert.assertEquals;
 public class Test1 {
 
     @Test
-    public void 問題1() {
+    public void 問題1_TechとTrainの2つの文字列をq1メソッドの返り値として返す() {
         ArrayList<String> list = Station1.q1();
         assertEquals(2, list.size());
         assertEquals("Tech", list.get(0));
