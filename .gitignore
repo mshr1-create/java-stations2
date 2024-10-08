@@ -44,3 +44,4 @@ bin/
 
 /internal/**/target
 .techtrain/config.toml
+node_modules/
