@@ -5,7 +5,7 @@
   "tests": [
     {
       "type": "junit-compat",
-      "command": "mvn test -pl internal/station1 -Dtest=Test4",
+      "command": "mvn test -pl internal/station4 -Dtest=Test4",
       "shell": true,
       "reportFile": "internal/station4/target/surefire-reports/TEST-Test4.xml"
     }
