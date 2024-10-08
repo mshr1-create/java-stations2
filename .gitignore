@@ -43,3 +43,4 @@ bin/
 .DS_Store
 
 /internal/**/target
+.techtrain/config.toml
