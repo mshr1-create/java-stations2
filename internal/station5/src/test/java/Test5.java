@@ -35,7 +35,8 @@ public class Test5 {
         ByteArrayOutputStream baos = new ByteArrayOutputStream();
         System.setOut(new PrintStream(baos));
         Station5.main(null);
-        String expected = "エラーが発生しました\n処理が完了しました\n";
+        String br = System.getProperty("line.separator");
+        String expected = "エラーが発生しました" + br + "処理が完了しました" + br;
         assertEquals(expected, baos.toString());
     }
 }
